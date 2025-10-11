@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tu Conjunto Inteligente | Plataforma de Autogestión</title>
+  <meta name="description" content="Plataforma web para la autogestión de conjuntos residenciales: pagos, PQRS, reservas y comunicaciones." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="inicio">
+  <header class="border-bottom bg-white sticky-top">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio" aria-label="Ir al inicio">
+        <img src="./assets/img/depositphotos_78278034-stock-illustration-abstract-building-logo-design-template.jpg" alt="Logo plataforma" class="rounded-circle border" id="logo" height="100"
+  width="100">
+        Tu Conjunto Inteligente
+      </a>
+      <nav aria-label="Principal">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tarifas">Tarifas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-primary text-white px-3 ms-2" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero d-flex align-items-center text-white">
+      <div class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold">Administra tu conjunto con transparencia y eficiencia</h1>
+            <p class="lead mb-4">
+              Pagos, reservas, PQRS y comunicaciones en un solo lugar. Autogestión real para administradores y residentes.
+            </p>
+            <a href="#contacto" class="btn btn-light btn-lg me-2">Solicitar información</a>
+            <a href="#servicios" class="btn btn-outline-light btn-lg">Ver funcionalidades</a>
+          </div>
+          <div class="col-lg-5">
+            <figure class="float-card">
+              <img src="./assets/img/istock-1069330600.jpg" class="img-fluid rounded-3 shadow-sm bordered-img" alt="Vista aérea de conjunto residencial">
+              <figcaption class="small text-white-50 mt-2">Ejemplo ilustrativo de comunidad conectada.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-5 bg-light">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1">Servicios principales</h2>
+          <p class="text-secondary mb-0">Todo lo que necesitas para la propiedad horizontal, en una sola página.</p>
+        </header>
+
+        <div class="row g-4">
+          <article class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Pagos y estados de cuenta</h3>
+                <ul>
+                  <li>Generación de cuotas por periodo</li>
+                  <li>Historial y comprobantes</li>
+                  <li>Conciliación rápida</li>
+                </ul>
+                <a href="https://www.gov.co/" target="_blank" rel="noopener" class="stretched-link">Más sobre normatividad</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">PQRS con SLA</h3>
+                <ul>
+                  <li>Categorización y prioridades</li>
+                  <li>Notificaciones por vencimiento</li>
+                  <li>Trazabilidad completa</li>
+                </ul>
+                <a href="#contacto" class="stretched-link">Solicitar demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Reservas de áreas comunes</h3>
+                <ul>
+                  <li>Reglas, aforos y no-show</li>
+                  <li>Recordatorios automáticos</li>
+                  <li>Calendario responsivo</li>
+                </ul>
+                <a href="#demo" class="stretched-link">Ver demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Comunicaciones y avisos</h3>
+                <ul>
+                  <li>Segmentación por torre/unidad</li>
+                  <li>Tablero de anuncios</li>
+                  <li>Boletines por email</li>
+                </ul>
+                <a href="#contacto" class="stretched-link">Contáctanos</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TABLA DE TARIFAS -->
+    <section id="tarifas" class="py-5">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1">Planes y tarifas</h2>
+          <p class="text-secondary">Elige el plan según el tamaño de tu comunidad.</p>
+        </header>
+
+        <div class="table-responsive">
+          <table class="table table-striped align-middle">
+              <thead class="table-dark">
+              <tr>
+                <th>Plan</th>
+                <th>Unidades</th>
+                <th>Incluye</th>
+                <th>Precio mensual</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Básico</td>
+                <td>hasta 80</td>
+                <td>Pagos, PQRS, Comunicados</td>
+                <td>$ —</td>
+              </tr>
+              <tr>
+                <td>Estándar</td>
+                <td>81–200</td>
+                <td>+ Reservas, Reportes</td>
+                <td>$ —</td>
+              </tr>
+              <tr>
+                <td>Pro</td>
+                <td>200+</td>
+                <td>+ Multi-sede, API</td>
+                <td>$ —</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- DEMO MULTIMEDIA -->
+    <section id="demo" class="py-5 bg-light">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1">Demo multimedia</h2>
+          <p class="text-secondary mb-0">Reproduce el audio de bienvenida o mira el video de recorrido.</p>
+        </header>
+
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <h3 class="h5">Audio de bienvenida</h3>
+            <audio controls preload="none">
+              <source src="./assets/sounds/Text to Speech.wav" type="audio/mpeg" />
+              Tu navegador no soporta audio HTML5.
+            </audio>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="h5">Video de recorrido</h3>
+            <video controls width="100%">
+              <source src="./assets/video/invideo-ai-1080 Tu conjunto, 100% digital en 60s 2025-10-11.mp4" type="video/mp4" />
+              Tu navegador no soporta video HTML5.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <header class="mb-4">
+          <h2 class="h1">Solicita información</h2>
+          <p class="text-secondary">Completa el formulario y te contactaremos.</p>
+        </header>
+
+        <form class="row g-3 needs-validation" action="#" method="post" novalidate>
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre"
+                   autocomplete="name" required autofocus />
+            <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="tucorreo@dominio.com"
+                   autocomplete="email" required />
+            <div class="invalid-feedback">Ingresa un email válido.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="unidad" class="form-label">Unidad / Apto</label>
+            <input type="text" class="form-control" id="unidad" name="unidad" placeholder="Torre 2 - 302"
+                   autocomplete="address-line2" required />
+            <div class="invalid-feedback">Indica tu unidad o apartamento.</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="fecha" class="form-label">Fecha preferida para demo</label>
+            <input type="date" class="form-control" id="fecha" name="fecha" required />
+            <div class="invalid-feedback">Selecciona una fecha.</div>
+          </div>
+
+          <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos tus necesidades"
+                      required></textarea>
+            <div class="invalid-feedback">Escríbenos un breve mensaje.</div>
+          </div>
+
+          <div class="col-12 d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" value="" id="acepto" required />
+            <label class="form-check-label" for="acepto">
+              Acepto la <a href="#politica">política de tratamiento de datos</a>.
+            </label>
+            <div class="invalid-feedback d-block">Debes aceptar la política.</div>
+          </div>
+
+          <div class="col-12">
+            <button class="btn btn-primary btn-lg" type="submit">Enviar solicitud</button>
+            <a href="#inicio" class="btn btn-link">Volver arriba</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- POLÍTICA (ancla interna semántica) -->
+    <section id="politica" class="py-5 bg-light">
+      <div class="container">
+        <article>
+          <h2 class="h4">Política de tratamiento de datos</h2>
+          <p class="mb-0">Tus datos serán usados únicamente para contacto y demostraciones del producto.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <aside class="announcement small" aria-label="Anuncio importante">
+    Próxima asamblea: 25/11 • 7:00 p.m. • Salón comunal
+  </aside>
+
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0 small">© 2025 PH Autogestión</p>
+      <nav aria-label="Secundario">
+        <a class="me-3" href="#servicios">Servicios</a>
+        <a class="me-3" href="#tarifas">Tarifas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- JS Bootstrap + validación simple -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+  <script>
+    // Habilitar validación nativa + estilos Bootstrap
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) { event.preventDefault(); event.stopPropagation(); }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+  </script>
+</body>
+</html>
